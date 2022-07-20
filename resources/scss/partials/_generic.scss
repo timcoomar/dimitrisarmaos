@@ -1,0 +1,20 @@
+.main-generic {
+  background-color: var(--armaos-gray);
+  color: whitesmoke;
+  width: clamp(60vw, 90vw, 1000px);
+  margin: calc(1.1rem + 1vw) auto;
+  border-radius: .8rem;
+  article {
+    --type-min: 1.125rem;
+    --type-target: 1.2vw;
+    --type-max: 1.688rem;
+    padding: calc(1rem + 1.8vw);
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-generic > article {
+    text-align: left;
+  }
+}

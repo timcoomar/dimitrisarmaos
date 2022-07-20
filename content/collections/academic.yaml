@@ -1,0 +1,12 @@
+title: Μελετήματα
+template: academic/show
+layout: layout
+mount: 194e6dba-ab54-48f9-959f-68123106d1a6
+revisions: false
+route: '/academic/{slug}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

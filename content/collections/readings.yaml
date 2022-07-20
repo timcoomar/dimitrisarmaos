@@ -1,0 +1,12 @@
+title: Αναγνώσεις
+template: readings/show
+layout: layout
+mount: 64f73403-0b18-49c9-9bfd-71a989eafb6c
+revisions: false
+route: 'archive/readings/{slug}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

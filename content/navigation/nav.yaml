@@ -1,0 +1,5 @@
+title: 'Site Nav'
+collections:
+  - pages
+  - poetry
+root: true

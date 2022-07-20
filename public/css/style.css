@@ -1,0 +1,998 @@
+@charset "UTF-8";
+/* Box sizing rules */
+html {
+  box-sizing: border-box;
+  line-height: 1.4;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-tap-highlight-color: transparent;
+  /* 3*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* safari mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+main {
+  display: block;
+}
+
+body,
+p,
+table,
+blockquote,
+address,
+pre,
+iframe,
+form,
+figure,
+dl,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: bolder;
+  margin: 0;
+}
+
+/* Lists (enumeration)
+   ========================================================================== */
+ul[class],
+ol[class] {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Lists (definition)
+   ========================================================================== */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+  border: 0;
+  border-top: 1px solid;
+  margin: 0;
+  clear: both;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
+}
+
+address {
+  font-style: inherit;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: inherit;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+embed,
+iframe,
+img,
+object,
+video {
+  max-width: 100%;
+  display: block;
+  border: 0;
+  vertical-align: bottom;
+  border-style: none;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Useful table styles */
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* Forms
+   ========================================================================== */
+button,
+input,
+optgroup,
+select,
+textarea {
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+/**
+ * Remove all Style fro select elements. Does not quite work cross-browser
+ */
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+button[disabled],
+[type=button][disabled],
+[type=reset][disabled],
+[type=submit][disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Reset to invisible
+ */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/**
+ * Fix placeholder font properties inheritance.
+ */
+::-webkit-input-placeholder {
+  font: inherit;
+}
+
+:-ms-input-placeholder {
+  font: inherit;
+}
+
+::-ms-input-placeholder {
+  font: inherit;
+}
+
+::placeholder {
+  font: inherit;
+}
+
+/**
+ * Clickable labels
+ */
+label[for] {
+  cursor: pointer;
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Table
+   ========================================================================== */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption {
+  text-align: left;
+}
+
+td,
+th {
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+:root {
+  --armaos-gray: rgb(136, 136, 136);
+  --armaos-sugar: rgb(248, 243, 236);
+  --titles: clamp(1.125rem, 0.875rem + 1.25vw, 1.813rem);
+}
+
+body {
+  font-family: "EB Garamond", Georgia, serif;
+  color: var(--armaos-gray);
+  background: var(--armaos-sugar);
+}
+
+h1,
+h2,
+h3,
+p,
+figcaption {
+  font-size: clamp(var(--type-min, 1rem), 0.92rem + var(--type-target, 1.2vw), var(--type-max, 1.688rem));
+}
+
+h1,
+h2,
+h3,
+nav {
+  font-family: "Noto Serif", serif;
+}
+
+main {
+  font-family: "EB Garamond", Georgia, serif;
+  font-weight: 400;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.2rem;
+  width: 100vw;
+}
+
+.header-image {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5vw;
+  padding-right: 2vw;
+}
+.header-image img {
+  max-width: clamp(6rem, 15vw, 15vw);
+}
+.header-image figcaption {
+  --type-min: .8rem;
+  --type-target: 1.6vw;
+  --type-max: 2rem;
+  padding-bottom: calc(1.1rem + 0.4vw);
+  padding-left: calc(0.5rem + 3vw);
+  font-style: italic;
+}
+
+.site-nav {
+  z-index: 10;
+  margin-bottom: 3rem;
+}
+.site-nav ul {
+  list-style: none;
+}
+
+@media (max-width: 500px) {
+  .site-nav {
+    overflow-x: scroll;
+  }
+}
+.site-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.site-menu > li {
+  flex: 1 0 0;
+}
+.site-menu > li.active > a,
+.site-menu .current {
+  background: gainsboro;
+  color: var(--armaos-gray);
+}
+.site-menu a {
+  background: var(--armaos-gray);
+  color: white;
+  display: grid;
+  place-items: center;
+  padding-top: calc(0.4rem + 0.3vw);
+  padding-bottom: calc(0.4rem + 0.3vw);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-size: clamp(1rem, 0.8rem + 0.6vw, 2rem);
+  white-space: nowrap;
+}
+.site-menu a:hover {
+  background: gainsboro;
+  color: black;
+}
+
+.site-menu > li > ul {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  transform: translateY(-101%);
+  z-index: -1;
+  transition: transform 0.3s;
+  background: var(--armaos-sugar);
+}
+.site-menu > li > ul li {
+  border-bottom: 1px solid var(--armaos-gray);
+  width: max-content;
+}
+.site-menu > li > ul a {
+  background: transparent;
+  color: var(--armaos-gray);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-menu > li > ul[class*=active] {
+  transform: translateY(0);
+}
+
+.site-menu > li:hover > ul {
+  transform: translateY(0);
+}
+
+.site-menu > li > ul > li.active > a {
+  color: black;
+  background: transparent;
+}
+
+.page-home {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.home-image {
+  text-align: center;
+}
+.home-image a {
+  display: block;
+  padding: 1.3rem 1.8rem;
+  transition: all 0.4s;
+  font-size: 1.8rem;
+}
+.home-image a:hover {
+  background: rgba(136, 136, 136, 0.6);
+  color: white;
+}
+
+.main-generic {
+  background-color: var(--armaos-gray);
+  color: whitesmoke;
+  width: clamp(60vw, 90vw, 1000px);
+  margin: calc(1.1rem + 1vw) auto;
+  border-radius: 0.8rem;
+}
+.main-generic article {
+  --type-min: 1.125rem;
+  --type-target: 1.2vw;
+  --type-max: 1.688rem;
+  padding: calc(1rem + 1.8vw);
+  text-align: justify;
+}
+
+@media (max-width: 1000px) {
+  .main-generic > article {
+    text-align: left;
+  }
+}
+.main-editorial {
+  width: clamp(60vw, 90vw, 1000px);
+  margin: calc(1.1rem + 1vw) auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, clamp(200px, 25vw, 320px));
+  grid-gap: 1vw;
+}
+
+.figure-editorial {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid var(--armaos-gray);
+}
+.figure-editorial figcaption {
+  --type-min: 1rem;
+  --type-target: 1vw;
+  --type-max: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: calc(1rem + 0.8vw);
+  background: var(--armaos-gray);
+  color: gainsboro;
+  transform: translateX(100%);
+  transition: 0.2s transform;
+}
+
+.figure-editorial:hover > figcaption {
+  transform: translateX(0);
+}
+
+.article-video {
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 16/9;
+  width: 100%;
+  max-width: 90vw;
+}
+.article-video iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.main-generic.main-readings {
+  background: transparent;
+}
+
+.main-generic.main-manuscripts {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.slider {
+  width: 400px;
+  height: 300px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  background: #222;
+  z-index: 1;
+}
+
+#items {
+  width: 10000px;
+  position: relative;
+  top: 0;
+  left: -400px;
+}
+
+#items.shifting {
+  transition: left 0.2s ease-out;
+}
+
+.slide {
+  width: 400px;
+  height: 300px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s;
+  position: relative;
+  background: #FFCF47;
+}
+
+.slider.loaded .slide:nth-child(2),
+.slider.loaded .slide:nth-child(7) {
+  background: #FFCF47;
+}
+
+.slider.loaded .slide:nth-child(1),
+.slider.loaded .slide:nth-child(6) {
+  background: #7ADCEF;
+}
+
+.slider.loaded .slide:nth-child(3) {
+  background: #F97C68;
+}
+
+.slider.loaded .slide:nth-child(4) {
+  background: #a78df5;
+}
+
+.slider.loaded .slide:nth-child(5) {
+  background: #ff8686;
+}
+
+.control {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: -20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.prev,
+.next {
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.prev {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronLeft-512.png);
+  left: -20px;
+}
+
+.next {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png);
+  right: -20px;
+}
+
+.prev:active,
+.next:active {
+  transform: scale(0.8);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-0.3rem);
+  }
+  60% {
+    transform: translateY(-0.1rem);
+  }
+}
+.poetry__pagination {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: clamp(1.375rem, 1.216rem + 0.8vw, 1.813rem);
+}
+.poetry__pagination .disabled {
+  opacity: 0;
+}
+
+.main-poetry {
+  background: transparent;
+  color: var(--armaos-gray);
+}
+.main-poetry ul {
+  list-style: none;
+  padding: 0;
+}
+.main-poetry ul li {
+  border-bottom: 1px solid var(--armaos-gray);
+  margin-bottom: 1rem;
+}
+.main-poetry ul li a {
+  display: block;
+  padding: 0.6rem 0;
+  font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+  position: relative;
+}
+.main-poetry ul li a:hover {
+  text-shadow: 0 0 1px #9997;
+  color: black;
+}
+.main-poetry ul li a:hover::after {
+  animation: bounce 1s infinite;
+}
+.main-poetry ul li a::after {
+  content: "⌄";
+  font-size: var(--titles);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.poem__title {
+  border-bottom: 1px solid var(--armaos-gray);
+  padding-bottom: 1rem;
+  position: relative;
+  font-size: var(--titles);
+  margin-bottom: 2rem;
+}
+.poem__title a {
+  font-size: var(--titles);
+  top: 0.4rem;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+.poem__title a:hover {
+  animation: bounce 1s infinite;
+}
+
+.poem__content {
+  background: var(--armaos-gray);
+  color: var(--armaos-sugar);
+}
+.poem__content p {
+  margin: 0 0 0.3rem;
+}
+
+.main-academic {
+  background: transparent;
+  color: var(--armaos-gray);
+}
+.main-academic ul {
+  list-style: none;
+  padding: 0;
+}
+.main-academic ul li {
+  border-bottom: 1px solid var(--armaos-gray);
+  margin-bottom: 1rem;
+}
+.main-academic ul li a {
+  display: block;
+  padding: 0.6rem 0;
+  font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+  position: relative;
+}
+.main-academic ul li a:hover {
+  text-shadow: 0 0 1px #9997;
+  color: black;
+}
+.main-academic ul li a:hover::after {
+  animation: bounce 1s infinite;
+}
+.main-academic ul li a::after {
+  content: "⌄";
+  font-size: var(--titles);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+.main-academic ul li a[href$=".pdf"]::after {
+  content: " ";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  background: url('data:image/svg+xml;utf8,%3Csvg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect height="11.8" width="91.8" x="343.4" y="296.2"/><path d="M474.8,393.8c-1.4-2.9-4.4-4.8-7.7-4.8h-31.9v-69.2h-91.8V389h-31.9c-3.3,0-6.3,1.9-7.7,4.8c-1.4,2.9-1.1,6.4,0.9,9   l27,34.6H90.1c-20.1,0-36.5-16.4-36.5-36.5V221.1h148.3c36.6,0,66.3-31.1,66.3-69.4c0-38.3-29.8-69.4-66.3-69.4H53.6V59.7   c0-20.1,16.4-36.5,36.5-36.5h254.2c20.1,0,36.5,16.4,36.5,36.5V258H352c-4.7,0-8.6,3.8-8.6,8.6v17.9h91.8v-17.9   c0-4.7-3.8-8.6-8.6-8.6H398V59.7C398,30.1,373.9,6,344.2,6H90.1C60.4,6,36.3,30.1,36.3,59.7V91v121.5v188.4   c0,29.6,24.1,53.7,53.7,53.7h254.2c0.3,0,0.6,0,1,0l37.4,48c1.6,2.1,4.1,3.3,6.8,3.3c2.6,0,5.1-1.2,6.8-3.3l77.8-99.9   C475.9,400.2,476.2,396.7,474.8,393.8z M201.9,99.6c27.1,0,49.1,23.4,49.1,52.1s-22,52.1-49.1,52.1H53.6V99.6H201.9z"/><path d="M85.7,181.4v-20.9h11.9c6.1,0,10.8-1.6,14.3-4.7c3.4-3.1,5.2-7.2,5.2-12.4c0-5.1-1.7-9.2-5.2-12.4s-8.2-4.7-14.3-4.7H76.6   v55H85.7z M85.7,133.8h11.9c3.4,0,6,0.9,7.7,2.8c1.7,1.9,2.6,4.2,2.6,7c0,2.8-0.9,5.1-2.6,6.9c-1.7,1.8-4.3,2.7-7.7,2.7H85.7V133.8   z"/><path d="M163.3,174.9c4.4-4.3,6.6-9.9,6.6-16.8v-8.3c0-6.8-2.2-12.5-6.6-16.8c-4.4-4.4-10-6.5-17-6.5h-18.2v55h18.2   C153.3,181.4,158.9,179.3,163.3,174.9z M137.3,133.8h9c4.4,0,7.9,1.5,10.5,4.5c2.6,3,3.9,6.8,3.9,11.4v8.4c0,4.7-1.3,8.5-3.9,11.5   c-2.6,3-6.1,4.5-10.5,4.5h-9V133.8z"/><polygon points="191.5,158 213.6,158 213.6,150.6 191.5,150.6 191.5,133.8 217.5,133.8 217.5,126.4 182.3,126.4 182.3,181.4    191.5,181.4  "/></g></svg%3E');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35% 100%;
+}
+
+.main-readings {
+  background: transparent;
+  color: var(--armaos-gray);
+}
+.main-readings ul {
+  list-style: none;
+  padding: 0;
+}
+.main-readings ul li {
+  border-bottom: 1px solid var(--armaos-gray);
+  margin-bottom: 1rem;
+}
+.main-readings ul li a {
+  display: block;
+  padding: 0.6rem 0;
+  font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+  position: relative;
+}
+.main-readings ul li a:hover {
+  text-shadow: 0 0 1px #9997;
+  color: black;
+}
+.main-readings ul li a:hover::after {
+  animation: bounce 1s infinite;
+}
+.main-readings ul li a::after {
+  content: "⌄";
+  font-size: var(--titles);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+.main-readings ul li a[href$=".pdf"]::after {
+  content: " ";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  background: url('data:image/svg+xml;utf8,%3Csvg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect height="11.8" width="91.8" x="343.4" y="296.2"/><path d="M474.8,393.8c-1.4-2.9-4.4-4.8-7.7-4.8h-31.9v-69.2h-91.8V389h-31.9c-3.3,0-6.3,1.9-7.7,4.8c-1.4,2.9-1.1,6.4,0.9,9   l27,34.6H90.1c-20.1,0-36.5-16.4-36.5-36.5V221.1h148.3c36.6,0,66.3-31.1,66.3-69.4c0-38.3-29.8-69.4-66.3-69.4H53.6V59.7   c0-20.1,16.4-36.5,36.5-36.5h254.2c20.1,0,36.5,16.4,36.5,36.5V258H352c-4.7,0-8.6,3.8-8.6,8.6v17.9h91.8v-17.9   c0-4.7-3.8-8.6-8.6-8.6H398V59.7C398,30.1,373.9,6,344.2,6H90.1C60.4,6,36.3,30.1,36.3,59.7V91v121.5v188.4   c0,29.6,24.1,53.7,53.7,53.7h254.2c0.3,0,0.6,0,1,0l37.4,48c1.6,2.1,4.1,3.3,6.8,3.3c2.6,0,5.1-1.2,6.8-3.3l77.8-99.9   C475.9,400.2,476.2,396.7,474.8,393.8z M201.9,99.6c27.1,0,49.1,23.4,49.1,52.1s-22,52.1-49.1,52.1H53.6V99.6H201.9z"/><path d="M85.7,181.4v-20.9h11.9c6.1,0,10.8-1.6,14.3-4.7c3.4-3.1,5.2-7.2,5.2-12.4c0-5.1-1.7-9.2-5.2-12.4s-8.2-4.7-14.3-4.7H76.6   v55H85.7z M85.7,133.8h11.9c3.4,0,6,0.9,7.7,2.8c1.7,1.9,2.6,4.2,2.6,7c0,2.8-0.9,5.1-2.6,6.9c-1.7,1.8-4.3,2.7-7.7,2.7H85.7V133.8   z"/><path d="M163.3,174.9c4.4-4.3,6.6-9.9,6.6-16.8v-8.3c0-6.8-2.2-12.5-6.6-16.8c-4.4-4.4-10-6.5-17-6.5h-18.2v55h18.2   C153.3,181.4,158.9,179.3,163.3,174.9z M137.3,133.8h9c4.4,0,7.9,1.5,10.5,4.5c2.6,3,3.9,6.8,3.9,11.4v8.4c0,4.7-1.3,8.5-3.9,11.5   c-2.6,3-6.1,4.5-10.5,4.5h-9V133.8z"/><polygon points="191.5,158 213.6,158 213.6,150.6 191.5,150.6 191.5,133.8 217.5,133.8 217.5,126.4 182.3,126.4 182.3,181.4    191.5,181.4  "/></g></svg%3E');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35% 100%;
+}
+.main-readings ul li a.video::after {
+  content: " ";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  background: url("/assets/images/icon-youtube.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}

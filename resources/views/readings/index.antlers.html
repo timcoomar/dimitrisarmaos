@@ -1,0 +1,38 @@
+{{ partial:partials/sitenav }}
+
+<main class="main-generic main-readings">
+  {{ collection:readings limit="10" paginate="true" as="posts" max-depth="1" sort="order" }}
+
+      <ul>
+
+      {{ posts }}
+
+      <li>
+        {{ if video }}
+        <a class="reading__title video" href="{{ video }}">{{ title }}</a>
+        {{ else }}
+        <a class="reading__title" href="{{ permalink }}">{{ title }}</a>
+        {{ /if }}
+      </li>
+
+      {{ /posts }}
+
+      </ul>
+
+      {{ paginate }}
+        <nav class="poetry__pagination">
+          {{ if prev_page }}
+            <a href="{{ prev_page }}">&#10523;</a>
+          {{ else }}
+            <a class="disabled" disabled>&#10523;</a>
+          {{ /if }}
+          {{ if next_page }}
+            <a href="{{ next_page }}">&#10524;</a>
+          {{ else }}
+            <a class="disabled" disabled>&#10524;</a>
+          {{ /if }}
+        </nav>
+      {{ /paginate }}
+
+  {{ /collection:readings }}
+  </main>

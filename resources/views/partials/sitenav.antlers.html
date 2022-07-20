@@ -1,0 +1,18 @@
+<header class="site-header">
+  <figure class="header-image">
+    <img src="{{ config:app:url }}/assets/images/dimitris-profile.png" alt="Picture of Dimitris Armaos">
+    <figcaption>με της καρδιάς ήσυχη αντάρα...</figcaption>
+  </figure>
+  <nav class="site-nav">
+    <ul class="site-menu">
+    {{ nav:nav include_home="true" }}
+      <li>
+        <a href="{{ url }}" {{ if is_current || is_parent }} class="current"{{ /if }}>{{ title }}</a>
+        {{ if children }}
+            <ul>{{ *recursive children* }}</ul>
+        {{ /if }}
+      </li>
+    {{ /nav:nav }}
+    </ul>
+  </nav>
+</header>

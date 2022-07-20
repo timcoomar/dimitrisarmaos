@@ -1,0 +1,34 @@
+.main-editorial {
+  width: clamp(60vw, 90vw, 1000px);
+  margin: calc(1.1rem + 1vw) auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, clamp(200px, 25vw, 320px));
+  grid-gap: 1vw;
+}
+
+.figure-editorial {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid var(--armaos-gray);
+
+  figcaption {
+    --type-min: 1rem;
+    --type-target: 1vw;
+    --type-max: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: calc(1rem + .8vw);
+    background: var(--armaos-gray);
+    color: gainsboro;
+    transform: translateX(100%);
+    transition: .2s transform;
+  }
+}
+
+.figure-editorial:hover > figcaption {
+  transform: translateX(0);
+}

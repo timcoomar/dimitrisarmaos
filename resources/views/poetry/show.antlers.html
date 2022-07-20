@@ -1,0 +1,10 @@
+{{ partial:partials/sitenav }}
+
+<main class="main-generic main-poetry">
+  <h3 class="poem__title">{{ title }}
+    <a href="{{ link to='poetry' }}" alt="Back to Poetry collection">&#8963;</a>
+  </h3>
+  <article class="poem__content">
+  {{ content | nl2br }}
+  </article>
+</main>

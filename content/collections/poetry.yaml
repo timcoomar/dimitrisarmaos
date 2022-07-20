@@ -1,0 +1,12 @@
+title: Ποίηση
+template: poetry/show
+layout: layout
+mount: a40aa379-1481-4236-983d-1d58368f7ef2
+revisions: false
+route: '/poetry/{slug}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

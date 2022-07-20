@@ -1,0 +1,35 @@
+:root {
+  --armaos-gray: rgb(136, 136, 136);
+  --armaos-sugar: rgb(248, 243, 236);
+  --titles: clamp(1.125rem, 0.875rem + 1.25vw, 1.813rem);
+}
+
+body {
+  font-family: "EB Garamond", Georgia, serif;
+  color: var(--armaos-gray);
+  background: var(--armaos-sugar);
+}
+
+h1,
+h2,
+h3,
+p,
+figcaption {
+  font-size: clamp(
+    var(--type-min, 1rem), 
+    .92rem + var(--type-target, 1.2vw), 
+    var(--type-max, 1.688rem)
+  );
+}
+
+h1,
+h2,
+h3,
+nav {
+  font-family: "Noto Serif", serif;
+}
+
+main {
+  font-family: "EB Garamond", Georgia, serif;
+  font-weight: 400;
+}

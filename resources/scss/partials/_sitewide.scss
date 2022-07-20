@@ -1,0 +1,113 @@
+.site-header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.2rem;
+  width: 100vw;
+}
+
+.header-image {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5vw;
+  padding-right: 2vw;
+
+  img {
+    max-width: clamp(6rem, 15vw, 15vw);
+  }
+
+  figcaption {
+    --type-min: .8rem;
+    --type-target: 1.6vw;
+    --type-max: 2rem;
+    padding-bottom: calc(1.1rem + .4vw);
+    padding-left: calc(.5rem + 3vw);
+    font-style: italic;
+  }
+}
+
+.site-nav {
+  z-index: 10;
+  margin-bottom: 3rem;
+  ul {
+    list-style: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .site-nav {
+    overflow-x: scroll;
+  }
+}
+
+.site-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+
+  > li {
+    flex: 1 0 0;
+    // position: relative;
+  }
+
+  > li.active > a,
+  .current {
+    background: gainsboro;
+    //border-bottom: 1px solid var(--armaos-gray);
+    color: var(--armaos-gray);
+  }
+  
+  a {
+    background: var(--armaos-gray);
+    color: white;
+    display: grid;
+    place-items: center;
+    padding-top: calc(.4rem + .3vw);
+    padding-bottom: calc(.4rem + .3vw);
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-size: clamp(1rem, .8rem + .6vw, 2rem);
+    white-space: nowrap;
+    &:hover {
+      background: gainsboro;
+      color: black;
+    }
+  }
+}
+
+.site-menu > li > ul {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  transform: translateY(-101%);
+  z-index: -1;
+  transition: transform .3s;
+  background: var(--armaos-sugar);
+  li {
+    border-bottom: 1px solid var(--armaos-gray);
+    width: max-content;
+  }
+  a {
+    background: transparent;
+    color: var(--armaos-gray);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.site-menu > li > ul[class*="active"] {
+  transform: translateY(0);
+}
+
+.site-menu > li:hover > ul {
+  transform: translateY(0);
+}
+
+.site-menu > li > ul > li.active > a {
+  color: black;
+  background: transparent;
+}
