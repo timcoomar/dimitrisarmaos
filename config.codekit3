@@ -157,12 +157,52 @@
       "oAP" : "\/public\/assets\/.gitkeep",
       "oF" : 0
     },
+    "\/public\/assets\/images\/.meta\/armaos-colour.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/armaos-colour.jpg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/armaos1web.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/armaos1web.jpg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/d1(1).jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/d1(1).jpg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/d2.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/d2.jpg.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/images\/.meta\/dimitris-profile.png.yaml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/assets\/images\/.meta\/dimitris-profile.png.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/eikona-328.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/eikona-328.jpg.yaml",
       "oF" : 0
     },
     "\/public\/assets\/images\/.meta\/figure-editorial.jpg.yaml" : {
@@ -181,6 +221,74 @@
       "oAP" : "\/public\/assets\/images\/.meta\/icon-pdf.svg.yaml",
       "oF" : 0
     },
+    "\/public\/assets\/images\/.meta\/icon-youtube.svg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/icon-youtube.svg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/image2.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/image2.jpg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/armaos-colour.jpg" : {
+      "ft" : 16384,
+      "iS" : 284295,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/armaos-colour.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/armaos1web.jpg" : {
+      "ft" : 16384,
+      "iS" : 119004,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/armaos1web.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/d1(1).jpg" : {
+      "ft" : 16384,
+      "iS" : 303079,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/d1(1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/d2.jpg" : {
+      "ft" : 16384,
+      "iS" : 600752,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/d2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/public\/assets\/images\/dimitris-profile.png" : {
       "ft" : 32768,
       "iS" : 153501,
@@ -190,6 +298,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/eikona-328.jpg" : {
+      "ft" : 16384,
+      "iS" : 339700,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/eikona-328.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -226,6 +347,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/public\/assets\/images\/image2.jpg" : {
+      "ft" : 16384,
+      "iS" : 51534,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/image2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/public\/assets\/pdf\/.gitkeep" : {
       "cB" : 0,
@@ -306,6 +440,17 @@
       "oA" : 0,
       "oAP" : "\/public\/index.php",
       "oF" : 0
+    },
+    "\/public\/js\/glightbox.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/js\/glightbox.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/public\/js\/site.js" : {
       "bF" : 0,
@@ -2719,6 +2864,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
+    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2760,6 +2913,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/resources\/blueprints\/collections\/pages\/pages.yaml",
+      "oF" : 0
+    },
+    "\/resources\/blueprints\/collections\/photos\/photos.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/resources\/blueprints\/collections\/photos\/photos.yaml",
       "oF" : 0
     },
     "\/resources\/blueprints\/collections\/readings\/readings.yaml" : {
@@ -2948,6 +3109,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/resources\/scss\/partials\/_photos.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/resources\/public\/css\/_photos.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/resources\/scss\/partials\/_poetry.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3093,6 +3269,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/resources\/views\/partials\/sitenav.antlers.html",
+      "oF" : 0
+    },
+    "\/resources\/views\/photos\/index.antlers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/resources\/views\/photos\/index.antlers.html",
+      "oF" : 0
+    },
+    "\/resources\/views\/photos\/show.antlers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/resources\/views\/photos\/show.antlers.html",
       "oF" : 0
     },
     "\/resources\/views\/poetry\/index.antlers.html" : {

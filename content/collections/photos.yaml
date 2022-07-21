@@ -1,0 +1,12 @@
+title: Φωτογραφίες
+template: photos/show
+layout: layout
+mount: 33777807-e5a8-4016-aee1-9a6ad021a902
+revisions: false
+route: '/photos/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

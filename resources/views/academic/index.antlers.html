@@ -8,11 +8,7 @@
       {{ posts }}
 
       <li>
-        {{ if pdf }}
-        <a class="academic__title pdf" href="{{ pdf }}{{ url }}{{ /pdf }}">{{ title }}</a>
-        {{ else }}
-        <a class="academic__title" href="{{ permalink }}">{{ title }}</a>
-        {{ /if }}
+        <a class="academic__title pdf glightbox" href="{{ pdf }}{{ url }}{{ /pdf }}">{{ title }}</a>
       </li>
 
       {{ /posts }}

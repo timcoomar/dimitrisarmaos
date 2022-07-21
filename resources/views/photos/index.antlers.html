@@ -1,14 +1,18 @@
 {{ partial:partials/sitenav }}
 
-<main class="main-generic main-readings">
-  {{ collection:readings limit="10" paginate="true" as="posts" max-depth="1" sort="order" }}
+<main class="main-generic main-photos">
+  {{ collection:photos limit="12" paginate="true" as="posts" max-depth="1" sort="order" }}
 
       <ul>
 
       {{ posts }}
 
       <li>
-        <a class="reading__title video glightbox" href="{{ video }}" class="glightbox">{{ title }}</a>
+        {{ photo }}
+        <a class="photos__title photo glightbox" href="{{ permalink }}" data-type="image" data-gallery="gallery1">
+          <img src="{{ url }}">
+        </a>
+        {{ /photo }}
       </li>
 
       {{ /posts }}
@@ -30,5 +34,5 @@
         </nav>
       {{ /paginate }}
 
-  {{ /collection:readings }}
+  {{ /collection:photos }}
   </main>
