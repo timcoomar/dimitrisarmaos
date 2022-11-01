@@ -905,6 +905,30 @@ main {
   margin: 0 0 0.3rem;
 }
 
+.main-poetry.accordion .poem__content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+}
+.main-poetry.accordion .poem__content p {
+  font-size: 0;
+  transition: font-size 0.4s ease-in-out;
+}
+
+.main-poetry.accordion .poem__content.active {
+  max-height: 1500px;
+  padding: 1rem 1.8rem;
+}
+.main-poetry.accordion .poem__content.active p {
+  font-size: clamp(var(--type-min, 1rem), 0.92rem + var(--type-target, 1.2vw), var(--type-max, 1.688rem));
+}
+
+.accordion-link.active::after {
+  content: "⌃";
+  top: 35%;
+}
+
 .main-academic {
   background: transparent;
   color: var(--armaos-gray);

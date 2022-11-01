@@ -1,14 +1,17 @@
 {{ partial:partials/sitenav }}
 
-<main class="main-generic main-poetry">
-  {{ collection:poetry limit="10" paginate="true" as="posts" max-depth="1" sort="order" }}
+<main class="main-generic main-poetry accordion">
+  {{ collection:poetry paginate="false" as="posts" max-depth="1" sort="order" }}
 
       <ul>
 
       {{ posts }}
 
       <li>
-        <a href="{{ permalink }}">{{ title }}</a>
+        <a href="#0" class="accordion-link">{{ title }}</a>
+        <article class="poem__content">
+            {{ content | nl2br }}
+        </article>
       </li>
 
       {{ /posts }}
