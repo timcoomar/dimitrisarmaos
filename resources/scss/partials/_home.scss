@@ -18,3 +18,16 @@
     }
   }
 }
+
+.page-home .main-generic article img:first-of-type {
+    max-width: 35%;
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: .8rem;
+}
+
+@media (max-width: 600px) {
+    .page-home .main-generic article img:first-of-type {
+        max-width: 50%;
+    }
+}

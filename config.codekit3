@@ -203,6 +203,14 @@
       "oAP" : "\/public\/assets\/images\/.meta\/d2.jpg.yaml",
       "oF" : 0
     },
+    "\/public\/assets\/images\/.meta\/dimitris-bio-pic.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/dimitris-bio-pic.jpg.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/images\/.meta\/dimitris-profile.png.yaml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -296,6 +304,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/public\/assets\/images\/d2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/dimitris-bio-pic.jpg" : {
+      "ft" : 16384,
+      "iS" : 184432,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/dimitris-bio-pic.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
