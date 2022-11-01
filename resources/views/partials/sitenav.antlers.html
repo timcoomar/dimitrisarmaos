@@ -4,12 +4,12 @@
     <figcaption>με της καρδιάς ήσυχη αντάρα...</figcaption>
   </figure>
   <nav class="site-nav">
-    <ul class="site-menu">
+    <ul class="site-menu no-js">
     {{ nav:nav include_home="true" }}
       <li>
         <a href="{{ url }}" {{ if is_current || is_parent }} class="current"{{ /if }}>{{ title }}</a>
         {{ if children }}
-            <ul>{{ *recursive children* }}</ul>
+            <ul class="sub-nav">{{ *recursive children* }}</ul>
         {{ /if }}
       </li>
     {{ /nav:nav }}

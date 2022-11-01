@@ -461,7 +461,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/js\/glightbox.min-min.js",
+      "oAP" : "\/public\/js\/glightbox.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -472,7 +472,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/js\/site-min.js",
+      "oAP" : "\/public\/js\/site.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -783,7 +783,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/vendor\/statamic\/cp\/js\/app-min-min.js",
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/app-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -794,7 +794,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/vendor\/statamic\/cp\/js\/app-min.js",
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/app.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -821,7 +821,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/vendor\/statamic\/cp\/js\/manifest-min-min.js",
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/manifest-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -832,7 +832,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/vendor\/statamic\/cp\/js\/manifest-min.js",
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/manifest.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -851,7 +851,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/vendor\/statamic\/cp\/js\/vendor-min-min.js",
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/vendor-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -862,7 +862,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/vendor\/statamic\/cp\/js\/vendor-min.js",
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/vendor.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2857,7 +2857,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/public\/vendor\/statamic\/frontend\/js\/helpers-min.js",
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/helpers.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2991,7 +2991,18 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/resources\/js\/cp-min.js",
+      "oAP" : "\/public\/js\/cp.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/resources\/js\/site-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/js\/site-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -3002,7 +3013,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/resources\/js\/site-min.js",
+      "oAP" : "\/public\/js\/site.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -3013,7 +3024,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/resources\/js\/slider-min.js",
+      "oAP" : "\/public\/js\/slider.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -3367,7 +3378,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/tailwind.config-min.js",
+      "oAP" : "\/public\/js\/tailwind.config.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -3390,13 +3401,24 @@
       "oAP" : "\/vendor",
       "oF" : 0
     },
+    "\/webpack.mix-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/js\/webpack.mix-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/webpack.mix.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/webpack.mix-min.js",
+      "oAP" : "\/public\/js\/webpack.mix.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -4772,11 +4794,11 @@
     },
     "languageDefaultsJS" : {
       "autoOutputAction" : 0,
-      "autoOutputPathFilenamePattern" : "*-min.js",
-      "autoOutputPathRelativePath" : "\/min",
+      "autoOutputPathFilenamePattern" : "*.js",
+      "autoOutputPathRelativePath" : "..\/..\/public\/js",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
-      "autoOutputPathStyle" : 0,
+      "autoOutputPathStyle" : 2,
       "bundleFormat" : 0,
       "minifierStyle" : 1,
       "sourceMapStyle" : 0,

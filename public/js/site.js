@@ -1,0 +1,1 @@
+const jsCheck=document.querySelector(".no-js");jsCheck.classList.remove("no-js");const archiveItem=document.getElementsByTagName("a")[4];archiveItem.setAttribute("id","toggleMenu");const archiveMenu=document.querySelector(".sub-nav");archiveItem.addEventListener("click",(function(e){e.preventDefault(),archiveMenu.classList.toggle("active")}));

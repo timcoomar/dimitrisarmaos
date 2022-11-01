@@ -1,0 +1,1 @@
+const jsCheck=document.querySelector("no-js");console.log(jsCheck);

@@ -604,13 +604,18 @@ main {
   transform: translateY(0);
 }
 
-.site-menu > li:hover > ul {
+.site-menu.no-js > li:hover > ul {
   transform: translateY(0);
 }
 
 .site-menu > li > ul > li.active > a {
   color: black;
   background: transparent;
+}
+
+.ginner-container {
+  max-width: 85vw !important;
+  height: 90vh !important;
 }
 
 .page-home {
