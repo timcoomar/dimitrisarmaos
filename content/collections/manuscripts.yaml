@@ -1,0 +1,12 @@
+title: Χειρόγραφα
+template: manuscripts/show
+layout: layout
+mount: 58116d86-bc63-47fc-b278-1e2821297234
+revisions: false
+route: '/manuscripts/{slug}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

@@ -1,0 +1,29 @@
+{{ partial:partials/sitenav }}
+
+<main class="main-generic main-edited">
+
+    <h3>Ενδεικτικό δείγμα επιμελειών</h3>
+
+    {{ collection:editedworks paginate="false" as="posts" max-depth="1"
+    sort="order" }}
+
+    <ul class="edited-works">
+        {{ posts }}
+
+        <li>
+            <a
+                class="edited__title pdf glightbox"
+                href="{{ pdf }}{{ url }}{{ /pdf }}"
+                >
+                {{ if thumbnail }}
+                    <img src="{{ thumbnail }}{{ url }}{{ /thumbnail }}">
+                {{ /if }}
+            </a
+            >
+        </li>
+
+        {{ /posts }}
+    </ul>
+
+    {{ /collection:editedworks }}
+</main>

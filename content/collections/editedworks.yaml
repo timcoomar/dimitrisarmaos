@@ -1,0 +1,12 @@
+title: Επιμέλεια
+template: editedworks/show
+layout: layout
+mount: 022eddd6-544b-48cb-9c61-5b9ae81b23c8
+revisions: false
+route: '/editedworks/{slug}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

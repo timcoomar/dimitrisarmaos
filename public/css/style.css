@@ -521,14 +521,14 @@ main {
   padding-right: 2vw;
 }
 .header-image img {
-  max-width: clamp(6rem, 15vw, 15vw);
+  max-width: clamp(6rem, 15vw, 11vw);
 }
 .header-image figcaption {
   --type-min: .8rem;
   --type-target: 1.6vw;
   --type-max: 2rem;
   padding-bottom: calc(1.1rem + 0.4vw);
-  padding-left: calc(0.5rem + 3vw);
+  padding-left: calc(0.2rem + 1vw);
   font-style: italic;
 }
 
@@ -588,6 +588,8 @@ main {
   z-index: -1;
   transition: transform 0.3s;
   background: var(--armaos-sugar);
+  height: calc(100% - 1px);
+  overflow: hidden;
 }
 .site-menu > li > ul li {
   border-bottom: 1px solid var(--armaos-gray);
@@ -670,38 +672,18 @@ main {
     text-align: left;
   }
 }
-.main-editorial {
-  width: clamp(60vw, 90vw, 1000px);
-  margin: calc(1.1rem + 1vw) auto;
+.main-edited {
+  background: transparent;
+}
+.main-edited h3 {
+  color: var(--armaos-gray);
+  margin-bottom: 0.8rem;
+}
+
+.edited-works {
+  list-style: none;
   display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fill, clamp(200px, 25vw, 320px));
-  grid-gap: 1vw;
-}
-
-.figure-editorial {
-  position: relative;
-  overflow: hidden;
-  border: 3px solid var(--armaos-gray);
-}
-.figure-editorial figcaption {
-  --type-min: 1rem;
-  --type-target: 1vw;
-  --type-max: 2rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: calc(1rem + 0.8vw);
-  background: var(--armaos-gray);
-  color: gainsboro;
-  transform: translateX(100%);
-  transition: 0.2s transform;
-}
-
-.figure-editorial:hover > figcaption {
-  transform: translateX(0);
+  grid-template-columns: repeat(auto-fill, 18vw);
 }
 
 .article-video {
@@ -832,6 +814,17 @@ main {
     transform: translateY(-0.1rem);
   }
 }
+.poetry-covers {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.poetry-covers img {
+  aspect-ratio: 1/1.5;
+  object-fit: cover;
+  height: 100%;
+}
+
 .poetry__pagination {
   display: flex;
   justify-content: space-between;
@@ -909,19 +902,12 @@ main {
   max-height: 0;
   overflow: hidden;
   padding: 0;
-  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
-}
-.main-poetry.accordion .poem__content p {
-  font-size: 0;
-  transition: font-size 0.4s ease-in-out;
+  transition: max-height 0.7s ease-out, padding 0.7s ease-in;
 }
 
 .main-poetry.accordion .poem__content.active {
   max-height: 1500px;
   padding: 1rem 1.8rem;
-}
-.main-poetry.accordion .poem__content.active p {
-  font-size: clamp(var(--type-min, 1rem), 0.92rem + var(--type-target, 1.2vw), var(--type-max, 1.688rem));
 }
 
 .accordion-link.active::after {
@@ -975,6 +961,17 @@ main {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 35% 100%;
+}
+
+.academic-covers {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.academic-covers img {
+  aspect-ratio: 1/1.5;
+  object-fit: cover;
+  height: 100%;
 }
 
 .main-readings {
@@ -1040,6 +1037,8 @@ main {
 
 .main-photos {
   padding: 1rem 2rem;
+  background: transparent;
+  width: clamp(80vw, 100vw, 1226px);
 }
 
 .main-photos > ul {
@@ -1052,11 +1051,158 @@ main {
 }
 .main-photos > ul a {
   overflow: hidden;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1/1.2;
+  display: block;
+  border: 0.4rem solid var(--armaos-gray);
 }
 .main-photos > ul a img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.main-manuscripts {
+  background: transparent;
+  width: clamp(80vw, 100vw, 1226px);
+}
+
+.manuscripts-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18vw);
+  grid-gap: 0.8rem;
+  justify-content: center;
+  width: 100%;
+}
+.manuscripts-list a {
+  overflow: hidden;
+  aspect-ratio: 1/1.2;
+  display: block;
+  border: 0.4rem solid var(--armaos-gray);
+}
+.manuscripts-list a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.main-tributes {
+  background: transparent;
+  color: var(--armaos-gray);
+}
+.main-tributes ul {
+  list-style: none;
+  padding: 0;
+}
+.main-tributes ul li {
+  border-bottom: 1px solid var(--armaos-gray);
+  margin-bottom: 1rem;
+}
+.main-tributes ul li a {
+  display: block;
+  padding: 0.6rem 0;
+  font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+  position: relative;
+}
+.main-tributes ul li a:hover {
+  text-shadow: 0 0 1px #9997;
+  color: black;
+}
+.main-tributes ul li a:hover::after {
+  animation: bounce 1s infinite;
+}
+.main-tributes ul li a::after {
+  content: "⌄";
+  font-size: var(--titles);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+.main-tributes ul li a[href$=".pdf"]::after {
+  content: " ";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  background: url('data:image/svg+xml;utf8,%3Csvg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect height="11.8" width="91.8" x="343.4" y="296.2"/><path d="M474.8,393.8c-1.4-2.9-4.4-4.8-7.7-4.8h-31.9v-69.2h-91.8V389h-31.9c-3.3,0-6.3,1.9-7.7,4.8c-1.4,2.9-1.1,6.4,0.9,9   l27,34.6H90.1c-20.1,0-36.5-16.4-36.5-36.5V221.1h148.3c36.6,0,66.3-31.1,66.3-69.4c0-38.3-29.8-69.4-66.3-69.4H53.6V59.7   c0-20.1,16.4-36.5,36.5-36.5h254.2c20.1,0,36.5,16.4,36.5,36.5V258H352c-4.7,0-8.6,3.8-8.6,8.6v17.9h91.8v-17.9   c0-4.7-3.8-8.6-8.6-8.6H398V59.7C398,30.1,373.9,6,344.2,6H90.1C60.4,6,36.3,30.1,36.3,59.7V91v121.5v188.4   c0,29.6,24.1,53.7,53.7,53.7h254.2c0.3,0,0.6,0,1,0l37.4,48c1.6,2.1,4.1,3.3,6.8,3.3c2.6,0,5.1-1.2,6.8-3.3l77.8-99.9   C475.9,400.2,476.2,396.7,474.8,393.8z M201.9,99.6c27.1,0,49.1,23.4,49.1,52.1s-22,52.1-49.1,52.1H53.6V99.6H201.9z"/><path d="M85.7,181.4v-20.9h11.9c6.1,0,10.8-1.6,14.3-4.7c3.4-3.1,5.2-7.2,5.2-12.4c0-5.1-1.7-9.2-5.2-12.4s-8.2-4.7-14.3-4.7H76.6   v55H85.7z M85.7,133.8h11.9c3.4,0,6,0.9,7.7,2.8c1.7,1.9,2.6,4.2,2.6,7c0,2.8-0.9,5.1-2.6,6.9c-1.7,1.8-4.3,2.7-7.7,2.7H85.7V133.8   z"/><path d="M163.3,174.9c4.4-4.3,6.6-9.9,6.6-16.8v-8.3c0-6.8-2.2-12.5-6.6-16.8c-4.4-4.4-10-6.5-17-6.5h-18.2v55h18.2   C153.3,181.4,158.9,179.3,163.3,174.9z M137.3,133.8h9c4.4,0,7.9,1.5,10.5,4.5c2.6,3,3.9,6.8,3.9,11.4v8.4c0,4.7-1.3,8.5-3.9,11.5   c-2.6,3-6.1,4.5-10.5,4.5h-9V133.8z"/><polygon points="191.5,158 213.6,158 213.6,150.6 191.5,150.6 191.5,133.8 217.5,133.8 217.5,126.4 182.3,126.4 182.3,181.4    191.5,181.4  "/></g></svg%3E');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35% 100%;
+}
+
+.tribute-covers {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.tribute-covers img {
+  aspect-ratio: 1/1.5;
+  object-fit: cover;
+  height: 100%;
+}
+
+.main-interviews {
+  background: transparent;
+  color: var(--armaos-gray);
+}
+.main-interviews ul {
+  list-style: none;
+  padding: 0;
+}
+.main-interviews ul li {
+  border-bottom: 1px solid var(--armaos-gray);
+  margin-bottom: 1rem;
+}
+.main-interviews ul li a {
+  display: block;
+  padding: 0.6rem 0;
+  font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+  position: relative;
+}
+.main-interviews ul li a:hover {
+  text-shadow: 0 0 1px #9997;
+  color: black;
+}
+.main-interviews ul li a:hover::after {
+  animation: bounce 1s infinite;
+}
+.main-interviews ul li a::after {
+  content: "⌄";
+  font-size: var(--titles);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  transition: all 0.5s;
+}
+.main-interviews ul li a[href$=".pdf"]::after {
+  content: " ";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  background: url('data:image/svg+xml;utf8,%3Csvg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect height="11.8" width="91.8" x="343.4" y="296.2"/><path d="M474.8,393.8c-1.4-2.9-4.4-4.8-7.7-4.8h-31.9v-69.2h-91.8V389h-31.9c-3.3,0-6.3,1.9-7.7,4.8c-1.4,2.9-1.1,6.4,0.9,9   l27,34.6H90.1c-20.1,0-36.5-16.4-36.5-36.5V221.1h148.3c36.6,0,66.3-31.1,66.3-69.4c0-38.3-29.8-69.4-66.3-69.4H53.6V59.7   c0-20.1,16.4-36.5,36.5-36.5h254.2c20.1,0,36.5,16.4,36.5,36.5V258H352c-4.7,0-8.6,3.8-8.6,8.6v17.9h91.8v-17.9   c0-4.7-3.8-8.6-8.6-8.6H398V59.7C398,30.1,373.9,6,344.2,6H90.1C60.4,6,36.3,30.1,36.3,59.7V91v121.5v188.4   c0,29.6,24.1,53.7,53.7,53.7h254.2c0.3,0,0.6,0,1,0l37.4,48c1.6,2.1,4.1,3.3,6.8,3.3c2.6,0,5.1-1.2,6.8-3.3l77.8-99.9   C475.9,400.2,476.2,396.7,474.8,393.8z M201.9,99.6c27.1,0,49.1,23.4,49.1,52.1s-22,52.1-49.1,52.1H53.6V99.6H201.9z"/><path d="M85.7,181.4v-20.9h11.9c6.1,0,10.8-1.6,14.3-4.7c3.4-3.1,5.2-7.2,5.2-12.4c0-5.1-1.7-9.2-5.2-12.4s-8.2-4.7-14.3-4.7H76.6   v55H85.7z M85.7,133.8h11.9c3.4,0,6,0.9,7.7,2.8c1.7,1.9,2.6,4.2,2.6,7c0,2.8-0.9,5.1-2.6,6.9c-1.7,1.8-4.3,2.7-7.7,2.7H85.7V133.8   z"/><path d="M163.3,174.9c4.4-4.3,6.6-9.9,6.6-16.8v-8.3c0-6.8-2.2-12.5-6.6-16.8c-4.4-4.4-10-6.5-17-6.5h-18.2v55h18.2   C153.3,181.4,158.9,179.3,163.3,174.9z M137.3,133.8h9c4.4,0,7.9,1.5,10.5,4.5c2.6,3,3.9,6.8,3.9,11.4v8.4c0,4.7-1.3,8.5-3.9,11.5   c-2.6,3-6.1,4.5-10.5,4.5h-9V133.8z"/><polygon points="191.5,158 213.6,158 213.6,150.6 191.5,150.6 191.5,133.8 217.5,133.8 217.5,126.4 182.3,126.4 182.3,181.4    191.5,181.4  "/></g></svg%3E');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35% 100%;
+}
+
+.interview-covers {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.interview-covers img {
+  aspect-ratio: 1/1.5;
+  object-fit: cover;
+  height: 100%;
 }

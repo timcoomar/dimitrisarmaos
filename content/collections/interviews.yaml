@@ -1,0 +1,12 @@
+title: Συνεντεύξεις
+template: interviews/show
+layout: layout
+mount: b2b04d22-4bf6-4fd8-b46d-aa22a1befec8
+revisions: false
+route: '/interviews/{slug}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

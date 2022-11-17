@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 //    'title' => 'Example'
 // ]);
 
-URL::forceScheme('https');
+// URL::forceScheme('https');

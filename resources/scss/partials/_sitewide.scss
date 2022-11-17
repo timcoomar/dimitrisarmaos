@@ -12,7 +12,7 @@
   padding-right: 2vw;
 
   img {
-    max-width: clamp(6rem, 15vw, 15vw);
+    max-width: clamp(6rem, 15vw, 11vw);
   }
 
   figcaption {
@@ -20,7 +20,7 @@
     --type-target: 1.6vw;
     --type-max: 2rem;
     padding-bottom: calc(1.1rem + .4vw);
-    padding-left: calc(.5rem + 3vw);
+    padding-left: calc(.2rem + 1vw);
     font-style: italic;
   }
 }
@@ -87,6 +87,8 @@
   z-index: -1;
   transition: transform .3s;
   background: var(--armaos-sugar);
+  height: calc(100% - 1px);
+  overflow: hidden;
   li {
     border-bottom: 1px solid var(--armaos-gray);
     width: max-content;

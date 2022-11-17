@@ -1,0 +1,27 @@
+{{ partial:partials/sitenav }}
+
+<main class="main-generic main-manuscripts">
+    {{ collection:manuscripts paginate="false" as="posts" max-depth="1"
+    sort="order" }}
+
+    <ul class="manuscripts-list">
+        {{ posts }}
+
+        <li>
+            {{ photo }}
+            <a
+                class="photos__title photo glightbox"
+                href="{{ permalink }}"
+                data-type="image"
+                data-gallery="gallery1"
+            >
+                <img src="{{ url }}" />
+            </a>
+            {{ /photo }}
+        </li>
+
+        {{ /posts }}
+    </ul>
+
+ {{ /collection:manuscripts }}
+</main>

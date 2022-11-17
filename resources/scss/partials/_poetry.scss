@@ -4,6 +4,17 @@
 	60% {transform: translateY(-.1rem);}
 }
 
+.poetry-covers {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    img {
+        aspect-ratio: 1/1.5;
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
 .poetry__pagination {
   display: flex;
   justify-content: space-between;
@@ -83,23 +94,23 @@
     max-height: 0;
     overflow: hidden;
     padding: 0;
-    transition: max-height 0.4s ease-out, padding .4s ease-out;
-    p {
-        font-size: 0;
-        transition: font-size .4s ease-in-out;
-    }
+    transition: max-height 0.7s ease-out, padding .7s ease-in;
+    // p {
+    //     font-size: 0;
+    //     transition: font-size .4s ease-in-out;
+    // }
 }
 
 .main-poetry.accordion .poem__content.active {
     max-height: 1500px;
     padding: 1rem 1.8rem;
-    p {
-        font-size: clamp(
-            var(--type-min, 1rem),
-            .92rem + var(--type-target, 1.2vw),
-            var(--type-max, 1.688rem)
-        );
-    }
+    // p {
+    //     font-size: clamp(
+    //         var(--type-min, 1rem),
+    //         .92rem + var(--type-target, 1.2vw),
+    //         var(--type-max, 1.688rem)
+    //     );
+    // }
 }
 
 

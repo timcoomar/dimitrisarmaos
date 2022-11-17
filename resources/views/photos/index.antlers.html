@@ -1,7 +1,7 @@
 {{ partial:partials/sitenav }}
 
 <main class="main-generic main-photos">
-  {{ collection:photos limit="12" paginate="true" as="posts" max-depth="1" sort="order" }}
+  {{ collection:photos paginate="false" as="posts" max-depth="1" sort="order" }}
 
       <ul>
 

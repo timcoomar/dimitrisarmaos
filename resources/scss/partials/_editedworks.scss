@@ -1,0 +1,14 @@
+.main-edited {
+    background: transparent;
+
+    h3 {
+        color: var(--armaos-gray);
+        margin-bottom: .8rem;
+    }
+}
+
+.edited-works {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 18vw);
+}

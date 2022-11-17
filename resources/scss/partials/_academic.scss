@@ -48,3 +48,14 @@
     }
   }
 }
+
+.academic-covers {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    img {
+        aspect-ratio: 1/1.5;
+        object-fit: cover;
+        height: 100%;
+    }
+}

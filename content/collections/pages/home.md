@@ -5,7 +5,7 @@ title: 'Δημήτρης Αρμάος'
 template: home
 author: f5da7a42-9c6e-494f-b9e0-7cea2a72ef91
 updated_by: f5da7a42-9c6e-494f-b9e0-7cea2a72ef91
-updated_at: 1667295056
+updated_at: 1668600013
 ---
 ## Α.ΒΙΟΓΡΑΦΙΚΑ
 ![](assets/images/dimitris-bio-pic.jpg)

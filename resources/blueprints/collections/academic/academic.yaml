@@ -27,10 +27,11 @@ sections:
           icon: assets
           listable: hidden
           instructions_position: above
-          read_only: false
           validate:
             - 'mimes:pdf'
           folder: pdf
+          visibility: visible
+          always_save: false
   sidebar:
     display: Sidebar
     fields:

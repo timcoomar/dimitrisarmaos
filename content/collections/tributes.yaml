@@ -1,0 +1,12 @@
+title: 'Κείμενα άλλων για τον Αρμάο'
+template: tributes/show
+layout: layout
+mount: 208dcb3e-4ef1-4f5c-aa50-500a5cbe8e55
+revisions: false
+route: '/tributes/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false

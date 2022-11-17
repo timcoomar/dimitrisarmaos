@@ -1,0 +1,23 @@
+<header class="site-header">
+  <figure class="header-image">
+    <img src="{{ config:app:url }}/assets/images/dimitris-header-pic.png" alt="Picture of Dimitris Armaos">
+    <figcaption>με της καρδιάς ήσυχη αντάρα...</figcaption>
+    <ul class="poetry-covers">
+        <li><img src="{{ config:app:url }}/assets/images/cover-entyposeis.png" alt="Viaies Entyposeis collection cover"></li>
+        <li><img src="{{ config:app:url }}/assets/images/cover-poems1.jpg" alt="Cover poetry collection 1" /></li>
+        <li><img src="{{ config:app:url }}/assets/images/cover-poems2.jpg" alt="Cover poetry collection 2" /></li>
+    </ul>
+  </figure>
+  <nav class="site-nav">
+    <ul class="site-menu no-js">
+    {{ nav:nav include_home="true" }}
+      <li>
+        <a href="{{ url }}" {{ if is_current || is_parent }} class="current"{{ /if }}>{{ title }}</a>
+        {{ if children }}
+            <ul class="sub-nav">{{ *recursive children* }}</ul>
+        {{ /if }}
+      </li>
+    {{ /nav:nav }}
+    </ul>
+  </nav>
+</header>

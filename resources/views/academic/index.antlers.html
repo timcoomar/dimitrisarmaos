@@ -1,7 +1,43 @@
 {{ partial:partials/sitenav }}
 
 <main class="main-generic main-academic">
-  {{ collection:academic limit="10" paginate="true" as="posts" max-depth="1" sort="order" }}
+
+    <ul class="academic-covers">
+        <li>
+            <img
+                src="{{ config:app:url }}/assets/images/cover-mel-1.jpg"
+                alt=""
+            />
+        </li>
+
+        <li>
+            <img
+                src="{{ config:app:url }}/assets/images/cover-mel-2.jpg"
+                alt=""
+            />
+        </li>
+        <li>
+            <img
+                src="{{ config:app:url }}/assets/images/cover-mel-3.jpg"
+                alt=""
+            />
+        </li>
+        <li>
+        <img
+            src="{{ config:app:url }}/assets/images/cover-mel-4.jpg"
+            alt=""
+            />
+        </li>
+        <li>
+            <img
+                src="{{ config:app:url }}/assets/images/cover-mel-5.jpg"
+                alt=""
+            />
+        </li>
+    </ul>
+
+
+  {{ collection:academic paginate="false" as="posts" max-depth="1" sort="order" }}
 
       <ul>
 

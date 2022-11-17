@@ -1,0 +1,22 @@
+{{ partial:partials/sitenav }}
+
+<main class="main-generic main-interviews">
+    {{ collection:interviews paginate="false" as="posts" max-depth="1"
+    sort="order" }}
+
+    <ul>
+        {{ posts }}
+
+        <li>
+            <a
+                class="tribute__title pdf glightbox"
+                href="{{ pdf }}{{ url }}{{ /pdf }}"
+                >{{ title }}</a
+            >
+        </li>
+
+        {{ /posts }}
+    </ul>
+
+    {{ /collection:interviews }}
+</main>
