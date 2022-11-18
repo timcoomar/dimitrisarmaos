@@ -823,6 +823,7 @@ main {
   aspect-ratio: 1/1.5;
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 
 .poetry__pagination {
@@ -972,6 +973,7 @@ main {
   aspect-ratio: 1/1.5;
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 
 .main-readings {
