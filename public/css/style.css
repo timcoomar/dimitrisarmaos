@@ -632,6 +632,10 @@ main {
 }
 
 @media (max-width: 800px) {
+  .site-menu {
+    flex-wrap: wrap;
+  }
+
   .site-menu > li > .sub-nav {
     display: none;
   }
@@ -668,9 +672,14 @@ main {
   margin-bottom: 0.8rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .page-home .main-generic article img:first-of-type {
     max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .page-home .main-generic article img:first-of-type {
+    max-width: 100%;
   }
 }
 .main-generic {

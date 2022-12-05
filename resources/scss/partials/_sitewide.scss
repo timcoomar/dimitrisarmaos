@@ -136,6 +136,9 @@
   .site-nav {
     //overflow-x: scroll;
   }
+  .site-menu {
+    flex-wrap: wrap;
+  }
   .site-menu > li > .sub-nav {
     display: none;
   }
