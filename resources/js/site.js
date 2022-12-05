@@ -13,12 +13,14 @@ const archiveItem = document.getElementsByTagName("a")[4];
 archiveItem.setAttribute("id", "toggleMenu");
 
 const archiveMenu = document.querySelector(".sub-nav");
+const archiveMenuMobile = document.querySelector(".sub-nav__mobile");
 
 // On click disable default and toggle sub-menu
 
 archiveItem.addEventListener("click", function (evt) {
     evt.preventDefault();
     archiveMenu.classList.toggle("active");
+    archiveMenuMobile.classList.toggle("active");
 });
 
 ////////////////////

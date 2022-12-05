@@ -15,6 +15,7 @@
         <a href="{{ url }}" {{ if is_current || is_parent }} class="current"{{ /if }}>{{ title }}</a>
         {{ if children }}
             <ul class="sub-nav">{{ *recursive children* }}</ul>
+            <ul class="sub-nav__mobile">{{ *recursive children* }}</ul>
         {{ /if }}
       </li>
     {{ /nav:nav }}
