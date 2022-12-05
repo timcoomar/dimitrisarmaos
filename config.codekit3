@@ -3263,6 +3263,28 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/public\/vendor\/statamic\/public\/js\/helpers.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/helpers.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/public\/js\/manifest.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/manifest.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/README.html" : {
       "cB" : 0,
       "ft" : 8192,
