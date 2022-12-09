@@ -3,7 +3,7 @@ id: 5182d3aa-23bb-4f5d-8087-ee5a90a620c6
 blueprint: poetry
 title: 'RES EXTENSA'
 updated_by: 1efd0116-a539-4ffd-85b7-6bfe662e5c3a
-updated_at: 1670598456
+updated_at: 1670598675
 ---
 &ensp; _ΠΟΛΗ δὲν εἶναι ἡ μουσική της
 &ensp; ῾Η ἐδαφικὴ μορφολογία ὁ οὐρανός της
