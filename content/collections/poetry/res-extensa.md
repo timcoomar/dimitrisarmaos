@@ -3,10 +3,8 @@ id: 5182d3aa-23bb-4f5d-8087-ee5a90a620c6
 blueprint: poetry
 title: 'RES EXTENSA'
 updated_by: 1efd0116-a539-4ffd-85b7-6bfe662e5c3a
-updated_at: 1670598804
+updated_at: 1670598988
 ---
-<div align="left">
-
 &ensp; _ΠΟΛΗ δὲν εἶναι ἡ μουσική της
 &ensp; ῾Η ἐδαφικὴ μορφολογία ὁ οὐρανός της
 &ensp; Μὰ λίγο οἱ ἄνθρωποι &emsp; τὰ κτήρια πιθανόν
@@ -62,5 +60,3 @@ updated_at: 1670598804
 Καὶ τὴ μυριόστομη ἰαχή
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; σὰν κάθετο θυμίαμα
 Δίκοπο ἀστροπελέκι.
-  
-  </div>
