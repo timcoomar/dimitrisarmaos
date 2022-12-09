@@ -3,11 +3,11 @@ id: d27b0e74-bb62-4193-99a9-344475cc7011
 blueprint: poetry
 title: ΜΟΝΟΔΡΟΜΟΣ
 updated_by: 1efd0116-a539-4ffd-85b7-6bfe662e5c3a
-updated_at: 1670595306
+updated_at: 1670595338
 ---
 <div align="center">
   
-  Δυο τρόπους ἔχει ἡ ἀγάπη νὰ τελειώσει  <br>
+  Δυο τρόπους ἔχει ἡ ἀγάπη νὰ τελειώσει  
     	            	Στὸ πέλαγος τῆς ἡδονῆς  <br>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;	&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;	ἢ στ᾿ ἄλλο τῆς μελάνης  <br>
 		Δυὸ τρόποι γιὰ νὰ βρεῖς τὴ λευτεριά σου  <br>
