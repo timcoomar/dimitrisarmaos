@@ -3,7 +3,7 @@ id: d27b0e74-bb62-4193-99a9-344475cc7011
 blueprint: poetry
 title: ΜΟΝΟΔΡΟΜΟΣ
 updated_by: 1efd0116-a539-4ffd-85b7-6bfe662e5c3a
-updated_at: 1670595338
+updated_at: 1670595428
 ---
 <div align="center">
   
@@ -13,6 +13,7 @@ updated_at: 1670595338
 		Δυὸ τρόποι γιὰ νὰ βρεῖς τὴ λευτεριά σου  <br>
     	                 Ὁ ἕνας νὰ φυγαδευτεῖς <br>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;	&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; κι ὁ ἄλλος νὰ πεθάνεις
+  
   </div>
   
 &emsp; ῎Εχεις μιὰ πληγὴ
