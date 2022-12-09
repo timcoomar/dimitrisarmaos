@@ -3,9 +3,10 @@ id: b0097b88-076f-4b2f-8631-1e3ef6dea54d
 blueprint: poetry
 title: ΣΥΝΟΨΗ
 updated_by: 1efd0116-a539-4ffd-85b7-6bfe662e5c3a
-updated_at: 1670593172
+updated_at: 1670593353
 ---
 <div align="right">
+  
     Μίλησε γλώσσα!
 </div>
 
