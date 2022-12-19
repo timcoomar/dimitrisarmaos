@@ -267,6 +267,38 @@
       "oAP" : "\/public\/assets\/images\/.meta\/d2.jpg.yaml",
       "oF" : 0
     },
+    "\/public\/assets\/images\/.meta\/da_1-(1).jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/da_1-(1).jpg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/da_3.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/da_3.jpg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/da_5-(2).jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/da_5-(2).jpg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/da_9-(2).jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/da_9-(2).jpg.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/images\/.meta\/dimitris-bio-pic.jpg.yaml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -299,6 +331,14 @@
       "oAP" : "\/public\/assets\/images\/.meta\/eikona-328.jpg.yaml",
       "oF" : 0
     },
+    "\/public\/assets\/images\/.meta\/family3.jpg.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/family3.jpg.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/images\/.meta\/figure-editorial.jpg.yaml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -321,6 +361,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/assets\/images\/.meta\/icon-youtube.svg.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/images\/.meta\/im004657.JPG.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/.meta\/im004657.JPG.yaml",
       "oF" : 0
     },
     "\/public\/assets\/images\/.meta\/image2.jpg.yaml" : {
@@ -511,6 +559,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/public\/assets\/images\/da_1-(1).jpg" : {
+      "ft" : 16384,
+      "iS" : 560001,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/da_1-(1).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/da_3.jpg" : {
+      "ft" : 16384,
+      "iS" : 35526,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/da_3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/da_5-(2).jpg" : {
+      "ft" : 16384,
+      "iS" : 546481,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/da_5-(2).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/images\/da_9-(2).jpg" : {
+      "ft" : 16384,
+      "iS" : 1643013,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/da_9-(2).jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/public\/assets\/images\/dimitris-bio-pic.jpg" : {
       "ft" : 16384,
       "iS" : 184432,
@@ -563,6 +663,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/public\/assets\/images\/family3.jpg" : {
+      "ft" : 16384,
+      "iS" : 1338687,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/family3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/public\/assets\/images\/figure-editorial.jpg" : {
       "ft" : 16384,
       "iS" : 43126,
@@ -595,6 +708,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/public\/assets\/images\/im004657.JPG" : {
+      "ft" : 16384,
+      "iS" : 231529,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/images\/im004657.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/public\/assets\/images\/image2.jpg" : {
       "ft" : 16384,
@@ -656,6 +782,30 @@
       "oAP" : "\/public\/assets\/pdf\/.gitkeep",
       "oF" : 0
     },
+    "\/public\/assets\/pdf\/.meta\/aygh---afierwma_compressed_compressed.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/aygh---afierwma_compressed_compressed.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/danihl---kritikh-sthn-analysh-twn-reyoskelwn-apo-xristodoyloy.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/danihl---kritikh-sthn-analysh-twn-reyoskelwn-apo-xristodoyloy.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/dhmhtroylia---stoys-dromoys-ths-poihshs-epi-trianta-xronia.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/dhmhtroylia---stoys-dromoys-ths-poihshs-epi-trianta-xronia.pdf.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/pdf\/.meta\/ellhnikes-metafraseis-ths-oeias-kwmwdias.pdf.yaml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -678,6 +828,46 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/assets\/pdf\/.meta\/kavafeia.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/kentrwths---dhmhtrhs-armaos-h-oi-pio-apshles-ki-eyaisohtes-antenes.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/kentrwths---dhmhtrhs-armaos-h-oi-pio-apshles-ki-eyaisohtes-antenes.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/kexagiogloy---toys-poihtes-toys-kaine-oi-astrapes.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/kexagiogloy---toys-poihtes-toys-kaine-oi-astrapes.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/kordomenidhs---dhmhtrhs-armaos.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/kordomenidhs---dhmhtrhs-armaos.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/koytsoyrelhs---apoxairetwntas-enan-spoydaio-poihth-kai-anorwpo.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/koytsoyrelhs---apoxairetwntas-enan-spoydaio-poihth-kai-anorwpo.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/koytsoyrelhs---entypwseis-apo-ton-dhmhtrh-armao.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/koytsoyrelhs---entypwseis-apo-ton-dhmhtrh-armao.pdf.yaml",
       "oF" : 0
     },
     "\/public\/assets\/pdf\/.meta\/meleti-rizitika.pdf.yaml" : {
@@ -712,6 +902,30 @@
       "oAP" : "\/public\/assets\/pdf\/.meta\/meleti-translation-mia-nichta-me-foties.pdf.yaml",
       "oF" : 0
     },
+    "\/public\/assets\/pdf\/.meta\/mpaskozos---apoxairetwntas-ton-dhmhtrh-armao.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/mpaskozos---apoxairetwntas-ton-dhmhtrh-armao.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/oi-maohtes---maohtries-toy-gia-ton-armao.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/oi-maohtes---maohtries-toy-gia-ton-armao.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/patilhs---dhmhtrhs-armaos,-proswpo-kai-ergo.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/patilhs---dhmhtrhs-armaos,-proswpo-kai-ergo.pdf.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/pdf\/.meta\/pratsinis.pdf.yaml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -720,12 +934,76 @@
       "oAP" : "\/public\/assets\/pdf\/.meta\/pratsinis.pdf.yaml",
       "oF" : 0
     },
+    "\/public\/assets\/pdf\/.meta\/seizanh---dhmhtrhs-armaos,-biaies-entypwseis-twn-etwn-1975-2007.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/seizanh---dhmhtrhs-armaos,-biaies-entypwseis-twn-etwn-1975-2007.pdf.yaml",
+      "oF" : 0
+    },
     "\/public\/assets\/pdf\/.meta\/synenteyxh-sthn-eygenia-migdoy.pdf.yaml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/assets\/pdf\/.meta\/synenteyxh-sthn-eygenia-migdoy.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/synenteyxh-sthn-olga-sella---ti-pio-biaio-apo-th-diapseysh-prosdokiwn-gia-toys-anorwpoys.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/synenteyxh-sthn-olga-sella---ti-pio-biaio-apo-th-diapseysh-prosdokiwn-gia-toys-anorwpoys.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/synenteyxh-ston-stamath-mayroeidh.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/synenteyxh-ston-stamath-mayroeidh.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/triaridhs---to-oaymasto-pneymatiko-sxedio-toy-armaoy.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/triaridhs---to-oaymasto-pneymatiko-sxedio-toy-armaoy.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/.meta\/xristodoyloy---dhmhtrhs-armaos,-h-enas-poihths-poy-alloiowrizei.pdf.yaml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/.meta\/xristodoyloy---dhmhtrhs-armaos,-h-enas-poihths-poy-alloiowrizei.pdf.yaml",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/aygh---afierwma_compressed_compressed.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/aygh---afierwma_compressed_compressed.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/danihl---kritikh-sthn-analysh-twn-reyoskelwn-apo-xristodoyloy.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/danihl---kritikh-sthn-analysh-twn-reyoskelwn-apo-xristodoyloy.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/dhmhtroylia---stoys-dromoys-ths-poihshs-epi-trianta-xronia.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/dhmhtroylia---stoys-dromoys-ths-poihshs-epi-trianta-xronia.pdf",
       "oF" : 0
     },
     "\/public\/assets\/pdf\/ellhnikes-metafraseis-ths-oeias-kwmwdias.pdf" : {
@@ -750,6 +1028,46 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/assets\/pdf\/kavafeia.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/kentrwths---dhmhtrhs-armaos-h-oi-pio-apshles-ki-eyaisohtes-antenes.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/kentrwths---dhmhtrhs-armaos-h-oi-pio-apshles-ki-eyaisohtes-antenes.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/kexagiogloy---toys-poihtes-toys-kaine-oi-astrapes.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/kexagiogloy---toys-poihtes-toys-kaine-oi-astrapes.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/kordomenidhs---dhmhtrhs-armaos.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/kordomenidhs---dhmhtrhs-armaos.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/koytsoyrelhs---apoxairetwntas-enan-spoydaio-poihth-kai-anorwpo.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/koytsoyrelhs---apoxairetwntas-enan-spoydaio-poihth-kai-anorwpo.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/koytsoyrelhs---entypwseis-apo-ton-dhmhtrh-armao.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/koytsoyrelhs---entypwseis-apo-ton-dhmhtrh-armao.pdf",
       "oF" : 0
     },
     "\/public\/assets\/pdf\/meleti-rizitika.pdf" : {
@@ -784,6 +1102,30 @@
       "oAP" : "\/public\/assets\/pdf\/meleti-translation-mia-nichta-me-foties.pdf",
       "oF" : 0
     },
+    "\/public\/assets\/pdf\/mpaskozos---apoxairetwntas-ton-dhmhtrh-armao.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/mpaskozos---apoxairetwntas-ton-dhmhtrh-armao.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/oi-maohtes---maohtries-toy-gia-ton-armao.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/oi-maohtes---maohtries-toy-gia-ton-armao.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/patilhs---dhmhtrhs-armaos,-proswpo-kai-ergo.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/patilhs---dhmhtrhs-armaos,-proswpo-kai-ergo.pdf",
+      "oF" : 0
+    },
     "\/public\/assets\/pdf\/pratsinis.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -792,12 +1134,52 @@
       "oAP" : "\/public\/assets\/pdf\/pratsinis.pdf",
       "oF" : 0
     },
+    "\/public\/assets\/pdf\/seizanh---dhmhtrhs-armaos,-biaies-entypwseis-twn-etwn-1975-2007.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/seizanh---dhmhtrhs-armaos,-biaies-entypwseis-twn-etwn-1975-2007.pdf",
+      "oF" : 0
+    },
     "\/public\/assets\/pdf\/synenteyxh-sthn-eygenia-migdoy.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/assets\/pdf\/synenteyxh-sthn-eygenia-migdoy.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/synenteyxh-sthn-olga-sella---ti-pio-biaio-apo-th-diapseysh-prosdokiwn-gia-toys-anorwpoys.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/synenteyxh-sthn-olga-sella---ti-pio-biaio-apo-th-diapseysh-prosdokiwn-gia-toys-anorwpoys.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/synenteyxh-ston-stamath-mayroeidh.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/synenteyxh-ston-stamath-mayroeidh.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/triaridhs---to-oaymasto-pneymatiko-sxedio-toy-armaoy.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/triaridhs---to-oaymasto-pneymatiko-sxedio-toy-armaoy.pdf",
+      "oF" : 0
+    },
+    "\/public\/assets\/pdf\/xristodoyloy---dhmhtrhs-armaos,-h-enas-poihths-poy-alloiowrizei.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/pdf\/xristodoyloy---dhmhtrhs-armaos,-h-enas-poihths-poy-alloiowrizei.pdf",
       "oF" : 0
     },
     "\/public\/css\/style.css" : {
@@ -3263,6 +3645,17 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/public\/vendor\/statamic\/public\/js\/app.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/app.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/public\/vendor\/statamic\/public\/js\/helpers.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -3281,6 +3674,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/public\/vendor\/statamic\/public\/js\/manifest.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/public\/vendor\/statamic\/public\/js\/vendor.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/public\/vendor\/statamic\/public\/js\/vendor.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
