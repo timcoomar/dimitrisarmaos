@@ -1,0 +1,17 @@
+---
+id: f2d5968d-9b0d-4ec3-868e-a939ae4da6d5
+blueprint: metafraseis_poiimaton
+title: SYNOPSIS
+updated_by: 1efd0116-a539-4ffd-85b7-6bfe662e5c3a
+updated_at: 1696588954
+---
+<div align="right">
+  Speak tongue!
+   </div>
+   
+   Neither luck nor eloquence  nor  writer’s mania was the origin (and in that alone industrious)&emsp; nor the youth who inscribed it &emsp; glory be to the lord
+Devoted from the start to archetypes year  after year he would say &emsp; contending with the global spider whereupon he realized he was depleted of the necessary wisdom, belief, and love and he strove to retrieve that which was not already spent in the immense vacuity of the world while his dreams were cultivated through just pristine sources compensating for losses in verse &emsp; which on the whole are termed &emsp; f o s s i l s   of the  grandiose extravaganza  that we all bewail.
+Their compromised perpetrator (trapped as much in correctness as in aggressive maneuvering &emsp; and simultaneously  a nightmare-ridden recipient of the muse)  forever fascinated  (though they severed him from inborn inspirations)  through a non-lineal knowledge of the mythology of human passion &emsp; and though he knew passion sublimated through art  he nonetheless succumbed  (truly self-destruction operates insidiously &emsp; an unnatural force and also an aberration)   yet above all he was plagued by the quotidian ravages of placidity  which held him in the wake of his numerous acquaintances &emsp; regrets are always superfluous (how painful is the knife sunk into mortal flesh?)  and there were those in turn who embittered him   namely his  faultily loving ones and sometimes occurring the unconscious impact of ethical implications (how much ill do you do to someone you don’ t kill on set?)  whereby a number of verses whose form appeared offensive at one point  insufferable at another  now became something   familiar  well-shaped materials &emsp; acceptable costumes that no longer shocked as they did initially   and  their appearance naturally found no opponents in the world (power elites and idiotic factions I mean) &emsp; what could you wish for &emsp; the savage present with remorse that consumes you? &emsp; tomorrow’s embrace which swells in emptiness?  the light soil onto which once and for all your shadow plummets?  to find yourself &emsp; to find yourself on sterile ground obliterated unseeing arrested yet  enduring  in everything through unseasonable habitual inner happiness  skirting the pitiable  morass of the other &emsp; we appear oblivious    – blissfully unaware &emsp; m y   m e l o d r a m a t i c    s h r i e k !
+Let us limit ourselves therefore to whatever strains of the muse are granted solely to initiates      although once  they ceaselessly probed the  precincts of angelic neighborhoods  (within the depths)    with complaints on the one hand from  completely indifferent  clam-trapped anthropoids    violent impressions on the part of sheepish creatures holding positions (scarcely material)  in the anguished chronicle and in turn  friends who have witnessed  all the whip-lashes &emsp; in silence but in sympathy suffering     holding on tight    to myriad linked fellow spirits under the gun &emsp; if  necessary they will remain grasping the strings and for the present accede to them &emsp; thus no fear 
+they will  land where their outward gaze is directed   for   they have surrendered &emsp; unconditionally
+They  have  surrendered  like  all the  defeated beneath the sway of the state.
