@@ -1,11 +1,11 @@
 ---
 id: home
 blueprint: pages
-title: 'Δημήτρης Αρμάος'
+title: 'Βίος και Έργο'
 template: home
 author: f5da7a42-9c6e-494f-b9e0-7cea2a72ef91
 updated_by: 1efd0116-a539-4ffd-85b7-6bfe662e5c3a
-updated_at: 1670586893
+updated_at: 1696587080
 ---
 ## Α.ΒΙΟΓΡΑΦΙΚΑ
 ![](assets/images/dimitris-bio-pic.jpg)
